@@ -13,6 +13,8 @@ before_cache:
 matrix:
   include:
   - os: linux
+  - os: linux
+    jdk: openjdk11
   - os: windows
     language: bash
     env: JDK="adopt@1.8.0-222"
